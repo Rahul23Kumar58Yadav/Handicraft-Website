@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">Craft<span>Heaven</span></a>
+        <div class="navbar">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#shop" class="nav-link">Shop</a>
+          <a href="#features" class="nav-link">Feature</a>
+          <a href="#products" class="nav-link">Products</a>
+        </div>
+        <div class="input-box">
+          <input type="text" name="password" placeholder="Search here..." />
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="signup">
+          <a href="#" <a href="#home" class="nav-signup btn--show-modal"
+            >Signup</a
+          >
+        </div>
+        <div class="nav-icon">
+          <a href="#"><i class="bx bx-user btn-show-modals"></i></a>
+          <a href="#"
+            ><i
+              class="bx bx-shopping-bag"
+              onclick="window.location.href = 'shop.html'"
+            ></i
+          ></a>
+          <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-payment container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
+
+            <div class="inputBox">
+              <span>Full Name:</span>
+              <input type="text" placeholder="Enter Name" />
+            </div>
+            <div class="inputBox">
+              <span>Email:</span>
+              <input type="email" placeholder="Enter Email" />
+            </div>
+            <div class="inputBox">
+              <span>Address:</span>
+              <input type="text" placeholder="Enter Address" />
+            </div>
+            <div class="inputBox">
+              <span>City:</span>
+              <input type="text" placeholder="Enter City" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>State:</span>
+                <input type="text" placeholder="Enter State" />
+              </div>
+              <div class="inputBox">
+                <span>Zip Code :</span>
+                <input type="text" placeholder="Enter Zip Code" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+
+            <div class="inputBox">
+              <span>Cards Accepted :</span>
+              <img src="img/card_img.png"" />
+            </div>
+            <div class="inputBox">
+              <span>Name On Card :</span>
+              <input type="text" placeholder="Enter Name" />
+            </div>
+            <div class="inputBox">
+              <span>Credit Card Number :</span>
+              <input type="number" placeholder="1111-2222-3333-4444" />
+            </div>
+            <div class="inputBox">
+              <span>Exiry Month :</span>
+              <input type="text" placeholder="Enter Month" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>Expiry Year :</span>
+                <input type="number" placeholder="Enter Year" />
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" placeholder="Enter CVV" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="shop-btn proceed">Pay Now</button>
+      </form>
+    </section>
+
+    <footer class="section footer">
+      <div class="footer-container container">
+        <div class="footer-content">
+          <a href="#" class="logo-content flex">
+            <i class="bx bx-color"></i>
+            <span class="logo-text">CraftHeaven</span>
+          </a>
+
+          <p class="content-description">
+            CraftHeaven is a company promotes unique handicraft and sell
+            handicraft products.
+          </p>
+
+          <div class="footer-location flex">
+            <i class="bx bx-map map-icon"></i>
+
+            <div class="location-text">
+              Floor 2, Jagjeetput Haridwar Uttrakhand
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-linkContent">
+          <ul class="footer-links">
+            <h4>
+              &nbsp &nbsp Home
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li><a href="#home" class="footer-link">Clock Making</a></li>
+            <li><a href="#home" class="footer-link">Block Printing</a></li>
+            <li><a href="#home" class="footer-link">Embroidery</a></li>
+            <li><a href="#home" class="footer-link">Jewellery</a></li>
+            <li><a href="#home" class="footer-link">Stone Works</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Features
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li>
+              <a href="#features" class="footer-link"> Painting</a>
+            </li>
+            <li><a href="#features" class="footer-link">Pottery</a></li>
+            <li><a href="#features" class="footer-link">Metal Crafts</a></li>
+            <li><a href="#features" class="footer-link">Glass Work</a></li>
+            <li><a href="#features" class="footer-link">Paper Crafts</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Products
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li><a href="#products" class="footer-link">Woods</a></li>
+            <li><a href="#products" class="footer-link">Paper</a></li>
+            <li><a href="#products" class="footer-link">Clothes</a></li>
+            <li><a href="#products" class="footer-link">Glass Work</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Contacts
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li><a href="#contacts" class="footer-link">About Us</a></li>
+            <li><a href="#contacts" class="footer-link">FAQs</a></li>
+            <li><a href="#contacts" class="footer-link">Supports</a></li>
+            <li><a href="#contacts" class="footer-link">Help Us</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Socials Media
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li>
+              <a href="https://www.instagram.com/" class="footer-link social"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.whatsapp.com/" class="footer-link social"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" class="footer-link social"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" class="footer-link social"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-copyRight">
+        &#169; CraftHeaven. All rigths reserved
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

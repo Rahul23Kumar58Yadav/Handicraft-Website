@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">Craft<span>Heaven</span></a>
+        <div class="navbar">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#shop" class="nav-link">Shop</a>
+          <a href="#features" class="nav-link">Feature</a>
+          <a href="#products" class="nav-link">Products</a>
+        </div>
+        <div class="input-box">
+          <input type="text" name="password" placeholder="Search here..." />
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="signup">
+          <a href="#" <a href="#home" class="nav-signup btn--show-modal"
+            >Signup</a
+          >
+        </div>
+        <div class="nav-icon">
+          <a href="#"><i class="bx bx-user btn-show-modals"></i></a>
+          <a href="#"
+            ><i
+              class="bx bx-shopping-bag"
+              onclick="window.location.href = 'cart.html'"
+            ></i
+          ></a>
+          <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="product-details container">
+      <div class="single-img">
+        <img src="img/pot4.webp" alt="" width="100%" id="MainImg" />
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="img/pot5.webp" width="100%" alt="" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="img/pot6.webp" width="100%" alt="" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="img/pot7.jpeg" width="100%" alt="" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="img/im022.webp" width="100%" alt="" class="small-img" />
+          </div>
+        </div>
+      </div>
+      <div class="single-details">
+        <h6>Handicraft Pot</h6>
+        <h4>Beautiful Pots</h4>
+        <h2>₹600.00</h2>
+        <select>
+          <option>Select Size</option>
+          <option>Plant Pot</option>
+          <option>Glass Pot</option>
+          <option>Normal Pot</option>
+          <option>Large Pot</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="shop-btn" onclick="window.location.href = 'cart.html'">
+          Add To Cart
+        </button>
+        <h4>Product Details</h4>
+        <span
+          >Pottery is not only a therapeutic activity, but it also provides the
+          perfect solution for enhancing creativity and self-expression.
+          Engaging in pottery enables individuals to tap into their artistic
+          side, unleashing their imagination and creating unique pieces of
+          art.</span
+        >
+      </div>
+    </section>
+    <section class="features container" id="features">
+      <div class="heading">
+        <h2>New Arrivals Handicrafts</h2>
+      </div>
+      <div class="feature-content">
+        <div class="feature-box" onclick="window.location.href = 'shop.html'">
+          <i class="bx bx-heart heart-icon"></i>
+          <img src="img/craft1.webp" alt="" />
+          <p>4 Types Available</p>
+          <h2>Stones</h2>
+          <div class="feature-info">
+            <span>₹ 150</span>
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+        <div class="feature-box" onclick="window.location.href = 'shop.html'">
+          <i class="bx bx-heart heart-icon"></i>
+          <img src="img/craft3.jpg" alt="" />
+          <p>4 Types Available</p>
+          <h2>3D Paint</h2>
+          <div class="feature-info">
+            <span>₹ 260</span>
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+
+        <div class="feature-box" onclick="window.location.href = 'shop.html'">
+          <i class="bx bx-heart heart-icon"></i>
+          <img src="img/wood.jpg" alt="" />
+          <p>4 Types Available</p>
+          <h2>Wood Craft</h2>
+          <div class="feature-info">
+            <span>₹ 250</span>
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+
+        <div class="feature-box" onclick="window.location.href = 'shop.html'">
+          <i class="bx bx-heart heart-icon"></i>
+          <img src="img/craft3.jpg" alt="" />
+          <p>4 Types Available</p>
+          <h2>3D Paint</h2>
+          <div class="feature-info">
+            <span>₹ 500</span>
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+        <div class="feature-box" onclick="window.location.href = 'shop.html'">
+          <i class="bx bx-heart heart-icon"></i>
+          <img src="img/wood3.webp" alt="" />
+          <p>4 Types Available</p>
+          <h2>Wood Owl</h2>
+          <div class="feature-info">
+            <span>₹ 300</span>
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+        <div class="feature-box" onclick="window.location.href = 'shop.html'">
+          <i class="bx bx-heart heart-icon"></i>
+          <img src="img/craft2.jpg" alt="" />
+          <p>4 Types Available</p>
+          <h2>Rope Bottel</h2>
+          <div class="feature-info">
+            <span>₹ 600</span>
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section footer">
+      <div class="footer-container container">
+        <div class="footer-content">
+          <a href="#" class="logo-content flex">
+            <i class="bx bx-color"></i>
+            <span class="logo-text">CraftHeaven</span>
+          </a>
+
+          <p class="content-description">
+            CraftHeaven is a company promotes unique handicraft and sell
+            handicraft products.
+          </p>
+
+          <div class="footer-location flex">
+            <i class="bx bx-map map-icon"></i>
+
+            <div class="location-text">
+              Floor 2, Jagjeetput Haridwar Uttrakhand
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-linkContent">
+          <ul class="footer-links">
+            <h4>
+              &nbsp &nbsp Home
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li><a href="#home" class="footer-link">Clock Making</a></li>
+            <li><a href="#home" class="footer-link">Block Printing</a></li>
+            <li><a href="#home" class="footer-link">Embroidery</a></li>
+            <li><a href="#home" class="footer-link">Jewellery</a></li>
+            <li><a href="#home" class="footer-link">Stone Works</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Features
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li>
+              <a href="#features" class="footer-link"> Painting</a>
+            </li>
+            <li><a href="#features" class="footer-link">Pottery</a></li>
+            <li><a href="#features" class="footer-link">Metal Crafts</a></li>
+            <li><a href="#features" class="footer-link">Glass Work</a></li>
+            <li><a href="#features" class="footer-link">Paper Crafts</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Products
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li><a href="#products" class="footer-link">Woods</a></li>
+            <li><a href="#products" class="footer-link">Paper</a></li>
+            <li><a href="#products" class="footer-link">Clothes</a></li>
+            <li><a href="#products" class="footer-link">Glass Work</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Contacts
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li><a href="#contacts" class="footer-link">About Us</a></li>
+            <li><a href="#contacts" class="footer-link">FAQs</a></li>
+            <li><a href="#contacts" class="footer-link">Supports</a></li>
+            <li><a href="#contacts" class="footer-link">Help Us</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4>
+              Socials Media
+              <div class="underline"><span></span></div>
+            </h4>
+
+            <li>
+              <a href="https://www.instagram.com/" class="footer-link social"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.whatsapp.com/" class="footer-link social"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" class="footer-link social"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" class="footer-link social"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-copyRight">
+        &#169; CraftHeaven. All rigths reserved
+      </div>
+    </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallImg = document.getElementsByClassName("small-img");
+
+      smallImg[0].onclick = function () {
+        MainImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        MainImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        MainImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        MainImg.src = smallImg[3].src;
+      };
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

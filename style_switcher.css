@@ -1,0 +1,93 @@
+:root{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+    
+}
+
+body.dark{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffff;
+    --text-black-700:#e9e9e9;
+}
+
+.style-switcher{
+    position: fixed;
+    right:0 ;
+    top: 3.5rem;
+    padding: .9rem;
+    width: 12.5rem;
+    border:1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    z-index: 101;
+    border-radius: .31rem;
+    transition: all .3s ease;
+    transform: translateX(100%);
+}
+.style-switcher.open{
+    transform: translateX(0%);
+}
+.style-switcher .s-icon{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 1.5rem;
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.style-switcher .s-icon i{
+    line-height:2.5rem;
+}
+.style-switcher .day-night{
+    top:3.43rem ;
+
+}
+.style-switcher h4{
+    margin: 0 0 0.6rem;
+    color: var(--text-black-700);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.style-switcher .colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.style-switcher .colors span{
+    display: inline-block;
+    height: 1.87rem;
+    width: 1.87rem;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.style-switcher .color-1{
+    background: #ec1839;
+}
+.style-switcher .color-2{
+    background:#fa5b0f;
+}
+
+.style-switcher .color-3{
+    background: #37b182;
+}
+
+.style-switcher .color-4{
+    background:#1854b4;
+}
+
+.style-switcher .color-5{
+    background:#f021b2;
+}
